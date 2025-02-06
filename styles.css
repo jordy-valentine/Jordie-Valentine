@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* display: flex;  //dont ever do this it affects the whole webpage. */
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #F77A7E;
+
+}
+
+.yes{
+    padding: 0px;
+    width: 20vw;
+    /* height:3cm ; */
+    height: 15vh;
+    background-color: #0CB957;
+    border-radius: 0.3cm;
+    color: white;
+    font-size: 30px;
+
+}
+
+.no{
+    padding: 0px;
+    width: 20vw;
+    /* height: 3cm; */
+    height: 15vh;
+    background-color: #D22131;
+    border-radius: 0.3cm;
+    color: white;
+    font-size: 30px;
+
+}
+
+.pooh{
+
+    width: 40vw;
+    flex-wrap: wrap;
+    
+}
+
+/* .buttons{
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    border-left: auto;
+    border-right: auto;
+    border-top: 0px;
+    border-bottom: 0px;
+} */
